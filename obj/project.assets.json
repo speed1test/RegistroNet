@@ -2761,11 +2761,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\edwin\\aplica\\Registro\\Registro.csproj",
+      "projectUniqueName": "C:\\Users\\edwin\\aplica\\Proyecto\\Registro\\Registro.csproj",
       "projectName": "Registro",
-      "projectPath": "C:\\Users\\edwin\\aplica\\Registro\\Registro.csproj",
+      "projectPath": "C:\\Users\\edwin\\aplica\\Proyecto\\Registro\\Registro.csproj",
       "packagesPath": "C:\\Users\\edwin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\edwin\\aplica\\Registro\\obj\\",
+      "outputPath": "C:\\Users\\edwin\\aplica\\Proyecto\\Registro\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\edwin\\AppData\\Roaming\\NuGet\\NuGet.Config"
