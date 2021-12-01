@@ -1,0 +1,32 @@
+@{
+    ViewData["Title"] = "Registar Alumno";
+}
+<h1>Registrar Alumno</h1>
+<div>
+    <form asp-controller="Alumno" asp-action="GuardarEnBd">
+        <p>Código: </p>
+        <input type="text" name="alm_codigo" class="form-control" required>
+        <p></p>
+        <p>Nombre: </p>
+        <input type="text" name="alm_nombre" class="form-control" required>
+        <p></p>
+        <p>Edad: </p>
+        <input type="number" min="1" max="100" name="alm_edad" class="form-control" required >
+        <p></p>
+        <p>Sexo: </p>
+        <select class="form-select" aria-label="Default select example" name="alm_sexo">
+            <option value="Hombre">Hombre</option>
+            <option value="Mujer">Mujer</option>
+        </select>
+        <p></p>
+        <p>Grado: </p>
+        <input type="text" name="alm_id_grd">
+        <p></p>
+        <p>Observación: </p>
+        <div class="form-group">
+            <textarea class="form-control" name="alm_observacion" id="exampleFormControlTextarea1" rows="3" required></textarea>
+        </div>
+        <p></p>
+        <button type="submit" class="btn btn-primary">Aceptar</button>
+    </form>
+</div>
